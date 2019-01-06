@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "displayName": "node environment",
+      "preset": "ts-jest",
+      "testEnvironment": "node",
+      "testMatch": ["<rootDir>/tests/node.test.ts"]
+    },
+    {
+      "displayName": "browser environment",
+      "preset": "ts-jest",
+      "testEnvironment": "jsdom",
+      "testMatch": ["<rootDir>/tests/window.test.ts"]
+    }
+  ]
+}
