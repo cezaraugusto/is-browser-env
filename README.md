@@ -1,8 +1,10 @@
 [![Written in TypeScript](https://img.shields.io/badge/TypeScript-100%25-blue.svg)](https://github.com/cezaraugusto/is-browser-env) [![npm](https://img.shields.io/npm/v/is-browser-env.svg)]() [![Build Status](https://travis-ci.org/cezaraugusto/is-browser-env.svg?branch=master)](https://travis-ci.org/cezaraugusto/is-browser-env)
 
+> TypeScript module with type definition support by default. Also works with other JavaScript projects.
+
 # is-browser-env
 
-> Checks whether or not the current runtime environment is a browser.
+Checks whether or not the current runtime environment is a browser.
 
 ## Useful when
 
@@ -15,7 +17,7 @@ $ npm i is-browser-env
 ```
 
 ## Usage
-s
+
 ```js
 import isBrowserEnv from 'is-browser-env'
 
